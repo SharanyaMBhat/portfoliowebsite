@@ -345,3 +345,22 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 40px;
 
 }
+
+.container {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	width: 1400px;
+
+  }
+  .item {
+	margin: 5px;
+}
+
+@media (max-width: 800px) {
+	.container {
+	  flex-direction: column;
+	  width: 250px;
+
+	}
+  }
